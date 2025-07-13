@@ -1,0 +1,20 @@
+DR-LABFT/
+├── consensus/
+│   ├── __init__.py
+│   ├── dr_labft.py
+│   ├── reputation.py
+│   ├── election.py
+│   ├── byzantine.py
+│   └── queue_controller.py
+├── network/
+│   ├── __init__.py
+│   ├── node.py
+│   ├── message.py
+│   └── simulator.py
+├── tests/
+│   ├── test_reputation.py
+│   ├── test_election.py
+│   └── test_consensus.py
+├── config.py
+├── requirements.txt
+└── main.py
